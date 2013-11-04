@@ -1,0 +1,43 @@
+.wrap .left1 .name .gaofentaike{ font: 22px/25px "Î¢ÈíÑÅºÚ"; text-align: left; display: block; height: 25px; width: 737px; color: #FFF; float: left; }
+.wrap .left1 .name{ font: 22px/25px "Î¢ÈíÑÅºÚ"; text-align: left; display: block; height: 25px; width: 980px; color: #FFF; margin-top: 18px; padding-left: 40px; float: left; }
+.wrap .left1 .name .kefu5 { height: 25px; width: 84px; margin-left: 737px; }
+
+.wrap .left1 .name .kefu6 { height: 25px; width: 84px; float: right; margin-right: 25px; }
+
+
+.wrap .left .email { font: bold 18px/25px "Î¢ÈíÑÅºÚ"; color: #FFF; margin-left: 60px; width: 777px; margin-top: 30px; }
+
+.wrap .left .email span { font: normal 16px/40px "ºÚÌå"; color: #FFF; text-decoration: underline; margin-left: 70px; margin-top: 10px; }
+
+.wrap .left .line { width: 837px; margin-top: 30px; }
+
+.wrap .left .adress { font: bold 40px/300px "ºÚÌå"; height: 326px; width: 150px; color: #FFF; margin-left: 60px; float: left; }
+
+.wrap .left .adress_beijing { font: normal 18px "ºÚÌå"; color: #FFF; float: right; width: 314px; }
+
+.wrap .left .adress_beijing p { font: 12px/18px "ºÚÌå"; text-align: left; display: block; margin-left: 70px; }
+
+.wrap .left .adress_beijing p span { text-align: left; display: block; font: bold 12px/18px "ºÚÌå"; margin-left: 35px; }
+
+.wrap .left .adress_shanghai { font: normal 18px "ºÚÌå"; color: #FFF; margin-left: 210px; width: 600px; }
+
+.wrap .left .adress_shanghai p { font: 12px/18px "ºÚÌå"; text-align: left; display: block; margin-left: 80px; }
+
+.wrap .left .adress_shanghai p span { text-align: left; display: block; font: bold 12px/18px "ºÚÌå"; margin-left: 25px; }
+
+.wrap .left1 .zuo { float: left; height: 702px; width: 514px; }
+
+.wrap .left1 .you { height: 702px; width: 686px; margin-left: 514px; margin-top: 90px; }
+
+.wrap .left1 .zuo .dizhi1 { font: 20px/30px "Î¢ÈíÑÅºÚ"; text-align: left; display: block; margin-top: 25px; margin-left: 40px; color: #F00; height: 30px; width: 474px; }
+
+.wrap .left1 .zuo .huadong { font: 14px/20px "Î¢ÈíÑÅºÚ"; color: #FFF; text-align: left; display: block; margin-left: 40px; width: 474px; margin-bottom: 48px; }
+
+.wrap .left1 .zuo .huadong span { font: 18px/25px "Î¢ÈíÑÅºÚ"; color: #FFF; }
+
+.wrap .left1 .zuo .hanbufzr { font: 14px/20px "Î¢ÈíÑÅºÚ"; color: #FFF; text-align: left; display: block; width: 474px; margin-bottom: 48px; margin-left: 40px; }
+
+.wrap .left1 .you .zongaddress { font: normal 14px/30px "ºÚÌå"; color: #FFF; margin-left: 13px; }
+
+
+.wrap .left1 .you .fenaddress { font: normal 14px/30px "ºÚÌå"; color: #FFF; margin-left: 13px; margin-top: 49px;}

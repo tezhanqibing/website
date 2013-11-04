@@ -1,0 +1,31 @@
+.wrap .left .xinwen { float: left; width: 314px; height: 745px; }
+
+.wrap .left .zhanhui { width: 594px; height: 745px; margin-left: 320px; margin-top: 0px; }
+
+.wrap .left .xinchanpin { width: 243px; height: 745px; float: left; }
+.wrap .left .xinchanpin .wait { font: normal 20px/555px "ºÚÌå"; text-align: center; display: block; color: #FFF; }
+
+
+.biaoti1 { font: normal 25px "Î¢ÈíÑÅºÚ"; text-align: center; display: block; margin-top: 54px; padding-bottom: 30px; color: #FFF; }
+
+.biaoti2 { font: normal 25px "Î¢ÈíÑÅºÚ"; text-align: left; display: block; margin-top: 54px; padding-bottom: 20px; color: #FFF; margin-left: 178px; margin-bottom: 0px; width: 60px; }
+
+.wrap .left .xinwen ul li { color: #FFF; line-height: 30px; width: 280px; }
+
+
+
+.wrap .left .xinwen ul { width: 280px; margin-right: 30px; margin-left: 30px; }
+.wrap .left .zhanhui .txt { margin: 0px; width: 515px; }
+
+
+.wrap .left .zhanhui .txt .ex1 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 40px; margin-left: 36px; }
+
+.wrap .left .zhanhui .txt .ex11 { margin-top: 10px; width: 100px; color: #1C6990; text-align: right; display: block; font: 13px "Î¢ÈíÑÅºÚ"; }
+
+.wrap .left .zhanhui .txt .ex2 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 12px; margin-left: 36px; }
+
+.wrap .left .zhanhui .txt .ex3 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 14px; margin-left: 36px; }
+
+.wrap .left .zhanhui .txt .ex4 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 24px; margin-left: 36px; }
+
+.wrap .left .zhanhui .txt .ex11 a { color: #F00; }
