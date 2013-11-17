@@ -6,4 +6,5 @@ define('APP_NAME','Web');
 define('APP_PATH','./Web/');
 define('APP_DEBUG',true);
 require('./ThinkPHP/ThinkPHP.php');
+
 ?>
