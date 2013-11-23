@@ -10,7 +10,7 @@
 
 .wrap .left .title { position: relative; top: 90px; text-align: center; display: block; color: #000000; font: normal normal 30px/80px "微软雅黑"; width: 837px; margin: 0px; padding: 0px; }
 
-.wrap .left .txt { position: relative; top: 70px; width: 650px; font: lighter normal 16px/25px "黑体"; color: #000000; text-transform: capitalize; margin: 0px 25px 35px; padding: 60px; }
+.wrap .left .txt { position: relative; top: 70px; width: 650px; font: normal normal 16px/25px "黑体"; color: #000000; text-transform: capitalize; margin: 0px 25px 35px; padding: 60px; }
 
 .wrap .left .txt img { text-align: center; display: block; margin-left: 160px; margin-top: 80px; }
 

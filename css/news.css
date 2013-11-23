@@ -1,31 +1,11 @@
-.wrap .left .xinwen { float: left; width: 314px; height: 745px; }
+@CHARSET "UTF-8";
+.left { height: 745px; width: 837px; float: left;  background: url(../image/left.jpg); }
 
-.wrap .left .zhanhui { width: 594px; height: 745px; margin-left: 320px; margin-top: 0px; }
+.right { height: 745px; width: 363px; float: right; background: url(../image/right.jpg); }
 
-.wrap .left .xinchanpin { width: 243px; height: 745px; float: left; }
-.wrap .left .xinchanpin .wait { font: normal 20px/555px "ºÚÌå"; text-align: center; display: block; color: #FFF; }
+.footer { height: 60px; width: 1200px; background: url(../image/footer.jpg); clear: both; }
 
+.wrap .left .title { float: left; margin: 100px 0px 30px 0px; height: 50px; width: 800px; background: url(../image/prod_title.gif); color: #000000; font: bold bold 20px/80px "Verdana,Tahoma,Arial"; font-weight: bold;}
 
-.biaoti1 { font: normal 25px "Î¢ÈíÑÅºÚ"; text-align: center; display: block; margin-top: 54px; padding-bottom: 30px; color: #FFF; }
-
-.biaoti2 { font: normal 25px "Î¢ÈíÑÅºÚ"; text-align: left; display: block; margin-top: 54px; padding-bottom: 20px; color: #FFF; margin-left: 178px; margin-bottom: 0px; width: 60px; }
-
-.wrap .left .xinwen ul li { color: #FFF; line-height: 30px; width: 280px; }
-
-
-
-.wrap .left .xinwen ul { width: 280px; margin-right: 30px; margin-left: 30px; }
-.wrap .left .zhanhui .txt { margin: 0px; width: 515px; }
-
-
-.wrap .left .zhanhui .txt .ex1 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 40px; margin-left: 36px; }
-
-.wrap .left .zhanhui .txt .ex11 { margin-top: 10px; width: 100px; color: #1C6990; text-align: right; display: block; font: 13px "Î¢ÈíÑÅºÚ"; }
-
-.wrap .left .zhanhui .txt .ex2 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 12px; margin-left: 36px; }
-
-.wrap .left .zhanhui .txt .ex3 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 14px; margin-left: 36px; }
-
-.wrap .left .zhanhui .txt .ex4 { font: 13px/20px "Î¢ÈíÑÅºÚ"; color: #000; margin-top: 24px; margin-left: 36px; }
-
-.wrap .left .zhanhui .txt .ex11 a { color: #F00; }
+.wrap .right .kefu1 { float: left; width: 135px;  margin-top: 88px; margin-left: 85px; }
+.wrap .right .kefu2 { float: left; width: 135px;  margin-top: 15px; margin-left: 85px; }

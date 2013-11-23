@@ -1,23 +1,16 @@
-.wrap .left .download { height: 745px; width: 595px; float: left; }
+@CHARSET "UTF-8";
+.left { height: 745px; width: 837px; float: left;  background: url(../image/left.jpg); }
 
-.wrap .left .lhjcy { margin-top: 208px; font: 16px/30px "Î¢ÈíÑÅºÚ"; color: #F00; width: 506px; margin-left: 175px; }
-.wrap .left .lhjcy a { color: #F00; text-decoration: underline; }
+.right { height: 745px; width: 363px; float: right; background: url(../image/right.jpg); }
 
+.footer { height: 60px; width: 1200px; background: url(../image/footer.jpg); clear: both; }
 
-.wrap .left .mmccy { margin-top: 70px; font: 16px/30px "Î¢ÈíÑÅºÚ"; color: #F00; width: 506px; margin-left: 175px;
- }
-.wrap .left .mmccy a { color: #F00; text-decoration: underline; }
-.wrap .left .pvccy { color: #F00; width: 506px; margin-top: 67px; margin-left: 175px; font: 16px/30px "Î¢ÈíÑÅºÚ"; }
-.wrap .left .pvccy a { color: #F00; text-decoration: underline; }
+.wrap .right .kefu1 { float: left; width: 135px;  margin-top: 88px; margin-left: 85px; }
+.wrap .right .kefu2 { float: left; width: 135px;  margin-top: 15px; margin-left: 85px; }
 
-.wrap .left .hbmcy { font: 16px/30px "Î¢ÈíÑÅºÚ"; color: #F00; margin-top: 72px; margin-left: 175px; }
+.wrap .left .download { float: left; margin: 100px 0px 0px 220px; width: 395px; height: 495px; background: url(../image/download.gif); }
 
-.wrap .left .hbmcy a { color: #F00; text-decoration: underline; }
+.wrap .left .download .prod { float: left; width: 400px; height: 40px; text-align: center; }
 
-
-
-
-.wrap .left .disc { margin-top: 59px; font: 16px/30px "Î¢ÈíÑÅºÚ"; color: #F00; width: 506px; margin-left: 175px;
- }
-
-.wrap .left .disc a { color: #F00; text-decoration: underline; }
+.wrap .left .download a { float: left; margin: 100px 0 0 120px; text-align: center;
+					font-family: Verdana,Tahoma,Arial; font-size: 11pt; font-weight: bold; color: #e5312a; }
