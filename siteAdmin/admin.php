@@ -1,4 +1,9 @@
+<?php
+
+?>
+
 <html>
+
 <head>
     <title>管理中心</title>
     <meta http-equiv=Content-Type content=text/html;charset=utf-8>
