@@ -31,5 +31,16 @@ class MyDB
     public function _destruct(){
         $this->close();
     }
+
+    public function setMysqli($mysqli)
+    {
+        $this->mysqli = $mysqli;
+    }
+
+    public function getMysqli()
+    {
+        return $this->mysqli;
+    }
+
 }
 ?>
