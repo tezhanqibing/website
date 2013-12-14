@@ -30,5 +30,16 @@ class AdminAction extends Action {
     public function productShow(){
 			$this->display();
     }
-	
+	public function qqAdmin(){
+			$this->display();
+    }
+	public function linkManAdmin(){
+			$this->display();
+    }
+	public function addNews(){
+			$this->display();
+    }
+	public function newsList(){
+			$this->display();
+    }
 }

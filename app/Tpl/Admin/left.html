@@ -150,8 +150,8 @@
                     </tr>
                 </table>
                 <ul class="MM">
-                    <li><a href="#" target="main">联系电话设置</a></li>
-                    <li><a href="#" target="main">联系QQ设置</a></li>
+                    <li><a href="linkManAdmin" target="main">联系电话设置</a></li>
+                    <li><a href="qqAdmin" target="main">联系QQ设置</a></li>
                 </ul>
             </div>   
             <h1 class="type"><a href="javascript:void(0)">网站内容管理</a></h1>
@@ -162,8 +162,8 @@
                     </tr>
                 </table>
                 <ul class="MM">
-                    <li><a href="#" target="main">公司新闻发布</a></li>
-                    <li><a href="#" target="main">公司新闻维护</a></li>
+                    <li><a href="addNews" target="main">公司新闻发布</a></li>
+                    <li><a href="newsList" target="main">公司新闻维护</a></li>
                 </ul>
             </div>
             </div>
