@@ -10,7 +10,7 @@ class AdminAction extends Action {
 			$User->add($data); // 根据条件保存修改的数据
 			$this->display();
     }
-    public function downloads(){
+    public function admin(){
 			$this->display();
     }
     public function productShow(){
