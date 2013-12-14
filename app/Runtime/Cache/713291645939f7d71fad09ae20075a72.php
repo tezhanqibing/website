@@ -1,4 +1,4 @@
-
+<?php if (!defined('THINK_PATH')) exit();?>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 

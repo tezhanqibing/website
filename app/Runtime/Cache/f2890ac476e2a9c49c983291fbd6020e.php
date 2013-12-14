@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
     <title><%= title %> - 管理页面</title>
     <script language=JavaScript>
@@ -41,7 +41,7 @@
         <td width="61%" height="64"><img src="__PUBLIC__/images/logo.gif" width="262" height="64"></td>
         <td width="39%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td width="74%" height="38" class="admin_txt">管理员：<b>{$Think.session.userName}</b> 您好,感谢登陆使用！</td>
+                <td width="74%" height="38" class="admin_txt">管理员：<b><?php echo (session('userName')); ?></b> 您好,感谢登陆使用！</td>
                 <td width="22%"><a href="#" target="_self" onClick="logout();"><img src="__PUBLIC__/images/out.gif" alt="安全退出" width="46" height="20" border="0"></a></td>
                 <td width="4%">&nbsp;</td>
             </tr>
