@@ -1,10 +1,9 @@
 <?php
-
-
-define('THINK_PATH','./ThinkPHP/');
-define('APP_NAME','Web');
-define('APP_PATH','./Web/');
-define('APP_DEBUG',true);
-require('./index.html');
-
+    //定义项目名称
+    define('APP_NAME', 'app');
+    //定义项目路径
+    define('APP_PATH', './app/');
+    define('APP_DEBUG', true);
+    //加载框架入文件
+    require './ThinkPHP/ThinkPHP.php';
 ?>

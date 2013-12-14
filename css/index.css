@@ -1,11 +1,11 @@
 @CHARSET "UTF-8";
-.left { height: 745px; width: 837px; float: left;  background: url(../image/left-index.jpg); }
+.left { height: 745px; width: 837px; float: left;  background: url(../../image/left-index.jpg); }
 
-.right { height: 745px; width: 363px; float: right; background: url(../image/right.jpg); }
+.right { height: 745px; width: 363px; float: right; background: url(../../image/right.jpg); }
 
-.footer { height: 60px; width: 1200px; background: url(../image/footer.gif); clear: both; }
+.footer { height: 60px; width: 1200px; background: url(../../image/footer.gif); clear: both; }
 
-.wrap .left .title { float: left; margin: 100px 0px 30px 0px; height: 50px; width: 800px; background: url(../image/prod_title.gif); color: #000000; font: bold bold 20px/80px "Verdana,Tahoma,Arial"; font-weight: bold;}
+.wrap .left .title { float: left; margin: 100px 0px 30px 0px; height: 50px; width: 800px; background: url(../../image/prod_title.gif); color: #000000; font: bold bold 20px/80px "Verdana,Tahoma,Arial"; font-weight: bold;}
 
 .wrap .right .kefu1 { float: left; width: 135px;  margin-top: 88px; margin-left: 85px; }
 .wrap .right .kefu2 { float: left; width: 135px;  margin-top: 15px; margin-left: 85px; }
