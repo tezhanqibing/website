@@ -12,11 +12,11 @@
 <div class="header"></div>
 <div class="tag">
   <ul>
-     <li><a href="introduction.html">公司</a></li>
-    <li><a href="index.html">产品</a></li>
-    <li><a href="download.html">文件下载</a></li>
-    <li><a href="news.html">新闻</a></li>
-    <li><a href="contact.html">联系我们</a></li>
+     <li><a href="../../index.php/Index/introduction.html">公司</a></li>
+    <li><a href="../../index.php/Index/index.html">产品</a></li>
+    <li><a href="../../index.php/Index/download.html">文件下载</a></li>
+    <li><a href="../../index.php/Index/news.html">新闻</a></li>
+    <li><a href="../../index.php/Index/contact.html">联系我们</a></li>
   </ul>
 </div>
 <div class="line1"></div>
