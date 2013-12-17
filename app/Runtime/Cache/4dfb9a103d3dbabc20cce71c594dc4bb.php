@@ -23,8 +23,43 @@
     <td width="16" valign="top" background="__PUBLIC__/images/mail_rightbg.gif"><img src="__PUBLIC__/images/nav-right-bg.gif" width="16" height="29" /></td>
 </tr>
 <tr>
+	<td valign="middle" background="__PUBLIC__/images/mail_leftbg.gif">&nbsp;</td>
+	<td colspan="2" bgcolor="#F7F8F9"></td>
+</tr>
+<tr>
 <td valign="middle" background="__PUBLIC__/images/mail_leftbg.gif">&nbsp;</td>
-<td valign="top" bgcolor="#F7F8F9"></td>
+<td valign="top" bgcolor="#F7F8F9">
+
+	<table border="0" class="line_table">
+		<tr>
+		<td valign="middle" >&nbsp;</td>
+		<td valign="top" bgcolor="#F7F8F9">编号</td>
+		<td valign="top" bgcolor="#F7F8F9">新闻标题</td>
+		<td valign="top" bgcolor="#F7F8F9">操作</td>
+		</tr>
+		<!--遍历新闻列表-->
+		<tr>
+		<td valign="middle">&nbsp;</td>
+		<td valign="top" bgcolor="#F7F8F9">1</td>
+		<td valign="top" bgcolor="#F7F8F9">国家主席习近平因病去世</td>
+		<td valign="top" bgcolor="#F7F8F9">删除 &nbsp;&nbsp修改</td>
+		</tr>
+		<!--遍历新闻列表结束-->
+		<tr>
+		<td valign="middle">&nbsp;</td>
+		<td valign="top" bgcolor="#F7F8F9">
+		<!--分页标记-->
+		上一页 &nbsp;1&nbsp;2&nbsp;下一页
+		</td>
+
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		</tr>
+
+	</table>
+
+</td>
+
 <td background="__PUBLIC__/images/mail_rightbg.gif">&nbsp;</td>
 </tr>
 <tr>
