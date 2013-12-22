@@ -23,6 +23,35 @@
     <td width="16" valign="top" background="__PUBLIC__/images/mail_rightbg.gif"><img src="__PUBLIC__/images/nav-right-bg.gif" width="16" height="29" /></td>
 </tr>
 <tr>
+	<td valign="middle" background="__PUBLIC__/images/mail_leftbg.gif">&nbsp;</td>
+	<td bgcolor="#F7F8F9">
+	<form action="../Admin/linkManAdmin" method="post" style="margin-left:40px">
+		<table>
+			<tr>
+				<td>新闻标题:</td>
+				<td> <input name="name" type="text" value="{$name}"/> </td>
+			</tr>
+			<tr>
+				<td>新闻内容:</td>
+				<td>
+					<textarea name="content" col="20" rows="10">
+						{$content}
+					</textarea> 
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input value="提交" type="submit"/>
+					<input value="重置" type="reset"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</td>
+	<td background="__PUBLIC__/images/mail_rightbg.gif">&nbsp;</td>
+</tr>
+
+<tr>
 <td valign="middle" background="__PUBLIC__/images/mail_leftbg.gif">&nbsp;</td>
 <td valign="top" bgcolor="#F7F8F9">
 
