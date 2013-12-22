@@ -162,7 +162,7 @@
                     </tr>
                 </table>
                 <ul class="MM">
-                    <li><a href="addNews" target="main">公司新闻发布</a></li>
+                    <li><a href="initAddNews" target="main">公司新闻发布</a></li>
                     <li><a href="newsList" target="main">公司新闻维护</a></li>
                 </ul>
             </div>

@@ -90,7 +90,13 @@ class AdminAction extends Action {
 			$this->display();
     }
 	public function addNews(){
-			$this->display();
+			$title=$_POST['title'];
+			$content=$_POST['content'];
+			$m=M('qnews');
+			$data['title'] = $title;
+			$data['content'] = $content;
+			$m->add($data);
+			$this->error("添加成功");
     }
 	public function newsList(){
 			$this->display();
@@ -118,5 +124,8 @@ class AdminAction extends Action {
 			$this->assign('telNum',$telNum);
 			$this->assign('postCode',$postCode);
 			$this->display("linkManAdmin");
+	}
+	public function initAddNews(){
+		$this->display("addNews");
 	}
 }
