@@ -150,7 +150,7 @@
                     </tr>
                 </table>
                 <ul class="MM">
-                    <li><a href="linkManAdmin" target="main">联系电话设置</a></li>
+                    <li><a href="initLinkManAdmin" target="main">联系电话设置</a></li>
                     <li><a href="initQQAdmin" target="main">联系QQ设置</a></li>
                 </ul>
             </div>   

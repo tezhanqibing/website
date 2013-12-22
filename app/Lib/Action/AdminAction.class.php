@@ -50,6 +50,43 @@ class AdminAction extends Action {
 			$this->display("qqAdmin");
     }
 	public function linkManAdmin(){
+			/**
+			 id         bigint not null auto_increment,
+		   name      varchar(500),
+		   mobile   varchar(500),
+		   address   varchar(500),
+		   fax   varchar(500),
+		   telNum   varchar(500),
+		   postCode   varchar(500),
+			**/
+			$name=$_POST['name'];
+			$mobile=$_POST['mobile'];
+			$address=$_POST['address'];
+			$fax=$_POST['fax'];
+			$telNum=$_POST['telNum'];
+			$postCode=$_POST['postCode'];
+			$id='1';
+			$where['id']=$id;
+			$m=M('qlinkman');
+			$i=$m->where($where)->count();
+			$data['name'] = $name;
+			$data['mobile'] = $mobile;
+			$data['address'] = $address;
+			$data['fax'] = $fax;
+			$data['telNum'] = $telNum;
+			$data['postCode'] = $postCode;
+			$data['id'] = $id;
+			if($i>0){
+				$m->save($data);
+			}else{
+				$m->add($data);
+			}
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$this->display();
     }
 	public function addNews(){
@@ -65,5 +102,21 @@ class AdminAction extends Action {
 			$this->assign('qq1',$qq1);
 			$this->assign('qq2',$qq2);
 			$this->display("qqAdmin");
+	}
+	public function initLinkManAdmin(){
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
+			$this->display("linkManAdmin");
 	}
 }
