@@ -31,7 +31,23 @@ class AdminAction extends Action {
 			$this->display();
     }
 	public function qqAdmin(){
-			$this->display();
+			$qq1=$_POST['qqNum1'];
+			$qq2=$_POST['qqNum2'];
+			$id='1';
+			$where['id']=$id;
+			$m=M('qinfo');
+			$i=$m->where($where)->count();
+			$data['qq1'] = $qq1;
+			$data['qq2'] = $qq2;
+			$data['id'] = $id;
+			if($i>0){
+				$m->save($data);
+			}else{
+				$m->add($data);
+			}
+			$this->assign('qq1',$qq1);
+			$this->assign('qq2',$qq2);
+			$this->display("qqAdmin");
     }
 	public function linkManAdmin(){
 			$this->display();
@@ -42,4 +58,12 @@ class AdminAction extends Action {
 	public function newsList(){
 			$this->display();
     }
+	public function initQQAdmin(){
+			$m=M('qinfo');
+			$qq1 = $m->where('id=1')->getField('qq1');
+			$qq2 = $m->where('id=1')->getField('qq2');
+			$this->assign('qq1',$qq1);
+			$this->assign('qq2',$qq2);
+			$this->display("qqAdmin");
+	}
 }

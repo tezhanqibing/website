@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?><h1>管理信息初始化成功</h1>

@@ -30,15 +30,15 @@
 <tr>
 	<td valign="middle" background="__PUBLIC__/images/mail_leftbg.gif">&nbsp;</td>
 	<td bgcolor="#F7F8F9">
-	<form action="" method="post" style="margin-left:40px">
+	<form action="../Admin/qqAdmin" method="post" style="margin-left:40px">
 		<table>
 			<tr>
 				<td>QQ号码1:</td>
-				<td> <input name="qqNum2" type="text"/> </td>
+				<td> <input name="qqNum1" type="text" value="<?php echo ($qq1); ?>"/> </td>
 			</tr>
 			<tr>
-				<td>QQ号码3:</td>
-				<td> <input name="qqNum2" type="text"/> </td>
+				<td>QQ号码2:</td>
+				<td> <input name="qqNum2" type="text" value="<?php echo ($qq2); ?>"/> </td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center">

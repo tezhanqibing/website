@@ -34,8 +34,8 @@
 	</div>
 </div>
 <div class="right">
- 	<div class="kefu1"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=411653525&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:411653525:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
-    <div class="kefu2"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=411653525&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:411653525:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
+ 	<div class="kefu1"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo ($qq1); ?>&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo ($qq1); ?>:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
+    <div class="kefu2"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo ($qq2); ?>&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo ($qq2); ?>:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
 </div>
 <div class="line1"></div>
 <div class="footer"> </div>
