@@ -38,12 +38,16 @@
 		<td valign="top" bgcolor="#F7F8F9">操作</td>
 		</tr>
 		<!--遍历新闻列表-->
+		<volist name="list" id="vo">
 		<tr>
 		<td valign="middle">&nbsp;</td>
-		<td valign="top" bgcolor="#F7F8F9">1</td>
-		<td valign="top" bgcolor="#F7F8F9">国家主席习近平因病去世</td>
-		<td valign="top" bgcolor="#F7F8F9">删除 &nbsp;&nbsp修改</td>
+		<td valign="top" bgcolor="#F7F8F9">{$vo.id}</td>
+		<td valign="top" bgcolor="#F7F8F9">{$vo.title}</td>
+		<td valign="top" bgcolor="#F7F8F9"><a href="../Admin/delNews?id={$vo.id}">删除</a> &nbsp;&nbsp<a href="../Admin/modifyNews?id={$vo.id}">修改</a></td>
 		</tr>
+		</volist>
+
+		
 		<!--遍历新闻列表结束-->
 		<tr>
 		<td valign="middle">&nbsp;</td>

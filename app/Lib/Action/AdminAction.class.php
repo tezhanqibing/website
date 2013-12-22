@@ -99,6 +99,9 @@ class AdminAction extends Action {
 			$this->error("添加成功");
     }
 	public function newsList(){
+			$news = M('qnews');
+			$list = $news->select();
+			$this->assign('list',$list);
 			$this->display();
     }
 	public function initQQAdmin(){
@@ -127,5 +130,15 @@ class AdminAction extends Action {
 	}
 	public function initAddNews(){
 		$this->display("addNews");
+	}
+	public function delNews(){
+		$id =$_GET['id'];
+		if($id!=null&&$id!=""){
+			$where['id']=$id;
+			$news = M('qnews');
+			$news->where($where)->delete();
+			$this->success('删除成功', 'newsList');
+		}
+			
 	}
 }
