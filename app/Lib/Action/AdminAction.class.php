@@ -138,7 +138,31 @@ class AdminAction extends Action {
 			$news = M('qnews');
 			$news->where($where)->delete();
 			$this->success('删除成功', 'newsList');
-		}
-			
+		}	
+	}
+	public function modifyNews(){
+		$id =$_GET['id'];
+		if($id!=null&&$id!=""){
+			$where['id']=$id;
+			$news = M('qnews');
+			$title =$news->where($where)->getField("title");
+			$content =$news->where($where)->getField("content");
+			$id =$news->where($where)->getField("id");
+			$this->assign('title',$title);
+			$this->assign('content',$content);
+			$this->assign('id',$id);
+			$this->display("newsModify");
+		}	
+	}
+	public function updateNews(){
+			$title=$_POST['title'];
+			$content=$_POST['content'];
+			$id=$_POST['id'];
+			$m=M('qnews');
+			$data['title'] = $title;
+			$data['content'] = $content;
+			$where['id'] = $id;
+			$m->where($where)->save($data);
+			$this->success('修改成功', 'newsList');
 	}
 }
