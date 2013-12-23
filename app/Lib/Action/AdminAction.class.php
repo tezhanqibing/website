@@ -99,9 +99,17 @@ class AdminAction extends Action {
 			$this->error("添加成功");
     }
 	public function newsList(){
+			import('ORG.Util.Page');
 			$news = M('qnews');
-			$list = $news->select();
+			$count  = $news->count();    
+			$Page   = new Page($count, 5);
+			$list   = $news->limit($Page->firstRow. ',' . $Page->listRows)->order('id desc')->select();
+			$Page->setConfig('header', '条新闻记录');
+			$Page->setConfig('first', '<<');
+			$Page->setConfig('last', '>>');
+			$page = $Page->show();
 			$this->assign('list',$list);
+			$this->assign('page',$page);
 			$this->display();
     }
 	public function initQQAdmin(){
