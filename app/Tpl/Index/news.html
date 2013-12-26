@@ -11,21 +11,61 @@
 <div class="header"></div>
 <div class="tag">
 	<ul>
-	    <li><a href="../../index.php/Index/introduction.html">公司</a></li>
-	    <li><a href="../../index.php/Index/index.html">产品</a></li>
-	    <li><a href="../../index.php/Index/download.html">文件下载</a></li>
-	    <li><a href="../../index.php/Index/news.html">新闻</a></li>
-	    <li><a href="../../index.php/Index/contact.html">联系我们</a></li>
+	    <li><a href="introduction.html">公司</a></li>
+	    <li><a href="index.html">产品</a></li>
+	    <li><a href="download.html">文件下载</a></li>
+	    <li><a href="news.html">新闻</a></li>
+	    <li><a href="contact.html">联系我们</a></li>
   	</ul>
 </div>
 <div class="line1"></div>
 <div class="left">
   <div class="new">
+  	<!-- 
+  	循环遍历显示消息，固定样式如div:content。标题、具体时间（“发布时间：”为静态）、内容都动态显示。
+  	每页显示三条消息，通过上下页实现基本简单翻页。
+  	内容显示长度需要截取制定长度，建议300个字符。通过阅读全文，查看全部内容。
+  	阅读全文时，需要传递消息ID。
+  	 -->
+  	<div class="content">
+  		<div class="new_title">测试新闻标题</div>
+	  	<div class="new_time">发布时间：2013-12-25</div>
+	  	<div class="new_content">
+	  		北京宜清嘉华生物科技有限公司是致力于引进
+	  		于推广高新技术生物清洁系列产品的科技公司。
+	  		 公司主要产品均已到达国际环保认证标准。公司在
+	  		 引进和推广产品的过程中，坚守“绿色，高效，国际化”原则，
+	  		  关注消费者的健康安全，确保产品的品质与世
+	  		  界环保标准统一接轨。当今世界倡导绿色环保，
+	   </div>
+	   <div class="new_all"><a href="news_allContent.html">&gt;&gt; 阅读全文</a></div>
+  	</div>
+  	<div class="content">
+  		<div class="new_title"></div>
+	  	<div class="new_time"></div>
+	  	<div class="new_content"></div>
+  	</div>
+  	<div class="content">
+  		<div class="new_title"></div>
+	  	<div class="new_time"></div>
+	  	<div class="new_content"></div>
+  	</div>
+  	
+  	 <div class="button">
+	  	<a href="" >上一页</a>  
+	  	<a href="" >下一页</a>
+	  </div>
   </div>
 </div>
 <div class="right">
-	<div class="kefu1"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={$qq1}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{$qq1}:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
-   	<div class="kefu2"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={$qq2}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{$qq2}:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
+	<div class="kefu1"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=411653525&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:411653525:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
+   	<div class="kefu2"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=411653525&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:411653525:47" alt="点击这里给我发消息" title="点击这里给我发消息"></a></div>
+   	<div class="link_name">王冀东</div>
+   	<div class="link_address">北京市西城区宣武门西大街大成广场28号院1门302房</div>
+   	<div class="link_postCode">100085</div>
+   	<div class="link_phone">010-87732745</div>
+   	<div class="link_fax">010-87732841</div>
+   	<div class="link_mobile">13331138246</div>
 </div>
 <div class="line1"></div>
 <div class="footer">
