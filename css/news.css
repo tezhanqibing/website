@@ -39,7 +39,7 @@
 
 .wrap .left .content .new_all a:hover  { color: blue; text-decoration:none; }
 
-.wrap .left .new .new_allContent { margin: 5px 0px 0px 0px; width: 755px; height: 450px; background-color: #ffffff; border: 1px solid #bfc1bf; }
+.wrap .left .new .new_allContent { margin: 5px 0px 0px 0px; width: 755px; height: 450px; background-color: #ffffff; border: 1px solid #bfc1bf; overflow: scroll; }
 
 .wrap .left .new .button { margin: 10px 0px 0px 300px; width: 755px; height: 30px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 12pt; font-weight: bold; }
 
