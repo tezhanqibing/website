@@ -1,7 +1,0 @@
-@CHARSET "UTF-8";
-.contact { height: 800px; width: 1200px; float: left;  background: url(../../image/contact.gif); }
-
-.footer { height: 60px; width: 1200px; background: url(../../image/footer.gif); clear: both; }
-
-.wrap .kefu .kefu1 { float: right; width: 135px;  margin-top: 75px; margin-right: 230px; }
-.wrap .kefu .kefu2 { float: right; width: 135px;  margin-top: 75px; margin-right: 50px; }

@@ -15,6 +15,17 @@ class IndexAction extends Action {
 			$qq2 = $m->where('id=1')->getField('qq2');
 			$this->assign('qq1',$qq1);
 			$this->assign('qq2',$qq2);
+			import('ORG.Util.Page');
+			$news = M('qnews');
+			$count  = $news->count();    
+			$Page   = new Page($count, 3);
+			$list   = $news->limit($Page->firstRow. ',' . $Page->listRows)->order('id desc')->select();
+			//$Page->setConfig('header', '');
+			//$Page->setConfig('first', '');
+			//$Page->setConfig('last', '');
+			$page = $Page->show();
+			$this->assign('list',$list);
+			$this->assign('page',$page);
 			$this->display();
     }
     public function downloads(){
@@ -52,5 +63,8 @@ class IndexAction extends Action {
 			$this->assign('qq1',$qq1);
 			$this->assign('qq2',$qq2);
 			$this->display();
+    }
+	public function showNews(){
+			$this->display("news_allContent");
     }
 }

@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>宜清嘉华</title>
-<link href="../../css/main.css" rel="stylesheet" type="text/css" />
-<link href="../../css/news.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/main.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/news.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="wrap">
@@ -27,8 +27,9 @@
   	内容显示长度需要截取制定长度，建议300个字符。通过阅读全文，查看全部内容。
   	阅读全文时，需要传递消息ID。
   	 -->
+	 <volist name="list" id="vo">
   	<div class="content">
-  		<div class="new_title">测试新闻标题</div>
+  		<div class="new_title">{$vo.id}</div>
 	  	<div class="new_time">发布时间：2013-12-25</div>
 	  	<div class="new_content">
 	  		北京宜清嘉华生物科技有限公司是致力于引进
@@ -38,22 +39,12 @@
 	  		  关注消费者的健康安全，确保产品的品质与世
 	  		  界环保标准统一接轨。当今世界倡导绿色环保，
 	   </div>
-	   <div class="new_all"><a href="news_allContent.html">&gt;&gt; 阅读全文</a></div>
+	   <div class="new_all"><a href="__URL__/showNews">&gt;&gt; 阅读全文</a></div>
   	</div>
-  	<div class="content">
-  		<div class="new_title"></div>
-	  	<div class="new_time"></div>
-	  	<div class="new_content"></div>
-  	</div>
-  	<div class="content">
-  		<div class="new_title"></div>
-	  	<div class="new_time"></div>
-	  	<div class="new_content"></div>
-  	</div>
+  	</volist>
   	
   	 <div class="button">
-	  	<a href="" >上一页</a>  
-	  	<a href="" >下一页</a>
+	  	{$page}
 	  </div>
   </div>
 </div>

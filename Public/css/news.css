@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+.left { height: 745px; width: 837px; float: left;  background: url(../image/left.jpg); }
+
+.right { height: 745px; width: 363px; float: right; background: url(../image/right.jpg); }
+
+.footer { height: 60px; width: 1200px; background: url(../image/footer.gif); clear: both; }
+
+.wrap .left .title { float: left; margin: 100px 0px 30px 0px; height: 50px; width: 800px; background: url(../image/prod_title.gif); color: #000000; font: bold bold 20px/80px "Verdana,Tahoma,Arial"; font-weight: bold;}
+
+.wrap .right .kefu1 { float: left; width: 135px;  margin-top: 88px; margin-left: 85px; }
+.wrap .right .kefu2 { float: left; width: 135px;  margin-top: 15px; margin-left: 85px; }
+
+.wrap .right .link_name      { float: left; width: 135px;  margin-top: 100px; margin-left: 95px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 11pt; font-weight: bold;}
+.wrap .right .link_address   { float: left; width: 300px;  margin-top: 8px; margin-left: 70px;  font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 9pt; font-weight: bold; font: bold bold 12px/20px "微软雅黑,Verdana,Tahoma,Arial"; }
+.wrap .right .link_postCode { float: left; width: 200px;  margin-top: 4px; margin-left: 70px;  font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 9pt; font-weight: bold; font: bold bold 12px/16px "微软雅黑,Verdana,Tahoma,Arial"; }
+.wrap .right .link_phone     { float: left; width: 200px;  margin-top: 4px; margin-left: 70px;  font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 9pt; font-weight: bold; font: bold bold 12px/18px "微软雅黑,Verdana,Tahoma,Arial"; }
+.wrap .right .link_fax         { float: left; width: 200px;  margin-top: 4px; margin-left: 70px;  font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 9pt; font-weight: bold; font: bold bold 12px/16px "微软雅黑,Verdana,Tahoma,Arial"; }
+.wrap .right .link_mobile     { float: left; width: 200px;  margin-top: 4px; margin-left: 70px;  font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 10pt; font-weight: bold; font: bold bold 12px/16px "微软雅黑,Verdana,Tahoma,Arial"; }
+
+.wrap .left .new { margin: 100px 0px 0px 40px; width: 755px; height: 520px; }
+
+.wrap .left .content { margin: 5px 0px 0px 0px; width: 755px; height: 150px; background-color: #ffffff; border: 1px solid #bfc1bf; }
+
+.wrap .left .new_title { margin: 5px 0px 0px 20px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 13pt; font-weight: bold; }
+
+.wrap .left .new_time { margin: 2px 0px 0px 20px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 9pt; font-weight: normal; color: #545754; }
+
+.wrap .left .new_content
+ { 
+ 	margin: 5px 20px 0px 20px;
+	font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 10pt; font-weight: normal; 
+	text-indent: 20px;
+	Line-height: 20px;
+}
+
+.wrap .left .content .new_all { float: right; margin: 5px 20px 5px 0px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 10pt; font-weight: normal; color: #09adf1; }
+
+.wrap .left .content .new_all a { color: #09adf1; text-decoration:none; }
+
+.wrap .left .content .new_all a:hover  { color: blue; text-decoration:none; }
+
+.wrap .left .new .new_allContent { margin: 5px 0px 0px 0px; width: 755px; height: 450px; background-color: #ffffff; border: 1px solid #bfc1bf; }
+
+.wrap .left .new .button { margin: 10px 0px 0px 300px; width: 755px; height: 30px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 12pt; font-weight: bold; }
+
+.wrap .left .new .button a { color: #3f3f3f; text-decoration:none; }
+
+.wrap .left .new .button a:hover { color: #000000; text-decoration:none; }
+
+.wrap .left .new .button_back { margin: 10px 0px 0px 350px; width: 755px; height: 30px; font-family: 微软雅黑,Verdana,Tahoma,Arial; font-size: 12pt; font-weight: bold; }
+
+.wrap .left .new .button_back a { color: #000000; text-decoration:none; }
+
+.wrap .left .new .button_back a:hover { color: #000000; text-decoration:none; }
+
