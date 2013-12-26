@@ -2,6 +2,19 @@
 // 用于前台的内容展示
 class IndexAction extends Action {
     public function index(){
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$m=M('qinfo');
 			$qq1 = $m->where('id=1')->getField('qq1');
 			$qq2 = $m->where('id=1')->getField('qq2');
@@ -10,6 +23,19 @@ class IndexAction extends Action {
 			$this->display();
     }
     public function news(){
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$m=M('qinfo');
 			$qq1 = $m->where('id=1')->getField('qq1');
 			$qq2 = $m->where('id=1')->getField('qq2');
@@ -29,6 +55,19 @@ class IndexAction extends Action {
 			$this->display();
     }
     public function downloads(){
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$this->display();
     }
     public function productShow(){
@@ -43,6 +82,19 @@ class IndexAction extends Action {
 			$this->display();
     }
 	public function download(){
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$m=M('qinfo');
 			$qq1 = $m->where('id=1')->getField('qq1');
 			$qq2 = $m->where('id=1')->getField('qq2');
@@ -62,9 +114,35 @@ class IndexAction extends Action {
 			$qq2 = $m->where('id=1')->getField('qq2');
 			$this->assign('qq1',$qq1);
 			$this->assign('qq2',$qq2);
+			$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
 			$this->display();
     }
-	public function showNews(){
+	public function showNews(){$m=M('qlinkman');
+			$name = $m->where('id=1')->getField('name');
+			$mobile = $m->where('id=1')->getField('mobile');
+			$address = $m->where('id=1')->getField('address');
+			$fax = $m->where('id=1')->getField('fax');
+			$telNum = $m->where('id=1')->getField('telNum');
+			$postCode = $m->where('id=1')->getField('postCode');
+			$this->assign('name',$name);
+			$this->assign('mobile',$mobile);
+			$this->assign('address',$address);
+			$this->assign('fax',$fax);
+			$this->assign('telNum',$telNum);
+			$this->assign('postCode',$postCode);
+		
 		$id =$_GET['id'];
 		if($id!=null&&$id!=""){
 			$where['id']=$id;
