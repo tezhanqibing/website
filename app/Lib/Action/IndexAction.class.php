@@ -65,6 +65,22 @@ class IndexAction extends Action {
 			$this->display();
     }
 	public function showNews(){
+		$id =$_GET['id'];
+		if($id!=null&&$id!=""){
+			$where['id']=$id;
+			$news = M('qnews');
+			$title =$news->where($where)->getField("title");
+			$content =$news->where($where)->getField("content");
+			$id =$news->where($where)->getField("id");
+			$this->assign('title',$title);
+			$this->assign('content',$content);
+			$this->assign('id',$id);
 			$this->display("news_allContent");
+		}else{
+			$this->assign('title',"未找到改文章");
+			$this->assign('content',"未找到改文章");
+			$this->assign('id',"未找到改文章");
+			$this->display("news_allContent");
+		}
     }
 }
