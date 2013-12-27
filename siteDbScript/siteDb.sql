@@ -22,6 +22,7 @@ create table QNews
    title      varchar(500),
    sendUser   varchar(500),
    content    longtext,
+   createTime DATETIME,
    primary key (id)
 );
 ----联系人表

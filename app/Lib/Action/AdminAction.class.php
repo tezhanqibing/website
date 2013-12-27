@@ -95,6 +95,7 @@ class AdminAction extends Action {
 			$m=M('qnews');
 			$data['title'] = $title;
 			$data['content'] = $content;
+			$data['createTime']=date("Y-m-d H:i:s");
 			$m->add($data);
 			$this->error("添加成功");
     }
