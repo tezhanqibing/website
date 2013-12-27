@@ -150,9 +150,11 @@ class IndexAction extends Action {
 			$title =$news->where($where)->getField("title");
 			$content =$news->where($where)->getField("content");
 			$id =$news->where($where)->getField("id");
+			$createTime =$news->where($where)->getField("createTime");
 			$this->assign('title',$title);
 			$this->assign('content',$content);
 			$this->assign('id',$id);
+			$this->assign('createTime',$createTime);
 			$this->display("news_allContent");
 		}else{
 			$this->assign('title',"未找到改文章");
